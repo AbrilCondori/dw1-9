@@ -1,0 +1,89 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+.barranav {
+    position: sticky;
+    top: 0px;
+}
+
+
+/*Section 1: Productos Destacados*/
+.destacados {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border: solid 2px #D6DAC8;
+    padding: 10px 10px;
+    margin: 20px 5px;
+}
+.cards1 {
+    border-radius: 5%;
+    margin: 5px 20px;
+    box-sizing: content-box
+}
+.imgs1 {
+    height: 350px;
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+}
+
+
+/*Section 2: Ofertas*/
+.ofertas {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 30% 30% 30%; 
+    width: 1000px;
+    height: 600px;
+    column-gap: 10px;
+    row-gap: 20px;
+}
+.item1 {
+    background-color: darksalmon;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.img1 {
+    width: 600px;
+    height: 580px;
+}
+.item2 {
+    background-color: cornflowerblue;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.item3 {
+    background-color: brown;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.item4 {
+    background-color: darkolivegreen;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.img2 {
+    width: 400px;
+    height: 180px;
+}
+
+/*Footer: info de la tienda*/
+.infoadicional {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.icons {
+    font-size: 35px;
+    color: #344955;
+}
+.copyright {
+    color: dimgray;
+}
+.msj {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    font-size: 40px;
+}
